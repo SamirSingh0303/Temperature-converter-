@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char text[1000];
+
+    printf("Enter your text:\n");
+    fgets(text, sizeof(text), stdin);
+
+    printf("\nYou entered:\n%s", text);
+
+    return 0;
+}
